@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: GitHub Tutorial
+description: Collaborative development using Git and GitHub
+img: /assets/img/github-mark.png
+importance: 3
+category: Tutorial
 ---
 
 Every project has a beautiful feature showcase page.
