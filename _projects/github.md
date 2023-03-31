@@ -43,4 +43,4 @@ to make sure that your information has been correctly set up.
 
 ### Tutorial Material
 
-This tutorial will follow along the instruction on this [repository](https://github.com/zhezhaozz/git_tutorial). This repository was modified from the git tutorial created by [romankouz](https://github.com/romankouz/git_tutorial).
+This tutorial will follow along the instruction on this [repository](https://github.com/zhezhaozz/git_tutorial). This repository was inspired and modified from the git tutorial created by [romankouz](https://github.com/romankouz/git_tutorial).

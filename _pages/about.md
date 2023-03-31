@@ -7,7 +7,7 @@ subtitle: PhD student studying Learning Health Systems.
 profile:
   align: right
   image: prof-pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>1161 North Ingalls Building</p>
     <p>300 N Ingalls St.</p>
