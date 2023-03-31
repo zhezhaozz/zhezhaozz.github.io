@@ -7,74 +7,38 @@ importance: 3
 category: Tutorial
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This is a tutorial about collaborative development using Git and GitHub I made for my lab and the Academia Cafe community.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Zoom Link:** TBD
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Time:** TBD
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Disclaimer
+1. In this tutorial I will demonstrate codes in MacOS. Windows machine uses a different command-line interface, which I'm not familiar with. For windows users, I strongly recommend learning how to use the comman prompt before taking this tutorial.
+2. This tutorial is only a simple demo of the current practice I'm using for projects. Not everything listed here is considered the best practice.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+### Prerequisites
+I will assume that you have installed `Git` on your operation systems. If not, please refer to this [link](https://www.atlassian.com/git/tutorials/install-git) for installation instruction. After the installation, go to [https://github.com/](https://github.com/) and register an account.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Once you acquired a GitHub account, you need to configure your account credential on your MacOS machine. Open the terminal application and type the following command. Remember to replace `your-github-user-name` and `your-account-email`.
 
 {% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+```zsh
+$ git config --global user.name "your-github-user-name"
+$ git config --global user.email your-account-email
 ```
 {% endraw %}
+
+Once you have done the above steps, type
+
+{% raw %}
+```zsh
+$ git config --list
+```
+{% endraw %}
+
+to make sure that your information has been correctly set up.
+
+### Tutorial Material
+
+This tutorial will follow along the instruction on this [repository](https://github.com/zhezhaozz/git_tutorial). This repository was forked and modified from the git tutorial created by [romankouz](https://github.com/romankouz/git_tutorial).
