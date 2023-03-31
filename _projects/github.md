@@ -13,6 +13,8 @@ This is a tutorial about collaborative development using Git and GitHub I made f
 
 **Time:** TBD
 
+**Contact Info:** [zzhaozhe@umich.edu](mailto:john@example.com)
+
 ### Disclaimer
 1. In this tutorial I will demonstrate codes in MacOS. Windows machine uses a different command-line interface, which I'm not familiar with. For windows users, I strongly recommend learning how to use the comman prompt before taking this tutorial.
 2. This tutorial is only a simple demo of the current practice I'm using for projects. Not everything listed here is considered the best practice.
@@ -41,4 +43,4 @@ to make sure that your information has been correctly set up.
 
 ### Tutorial Material
 
-This tutorial will follow along the instruction on this [repository](https://github.com/zhezhaozz/git_tutorial). This repository was forked and modified from the git tutorial created by [romankouz](https://github.com/romankouz/git_tutorial).
+This tutorial will follow along the instruction on this [repository](https://github.com/zhezhaozz/git_tutorial). This repository was modified from the git tutorial created by [romankouz](https://github.com/romankouz/git_tutorial).
