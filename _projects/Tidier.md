@@ -4,7 +4,7 @@ title: Tidier.jl
 description: Julia implementation of the R tidyverse
 img: assets/img/Tidier_jl_logo.png
 importance: 1
-category: Research
+category: Open-source
 ---
 
 I'm actively contributing to [Tidier.jl](https://github.com/kdpsingh/Tidier.jl), which is an open source projected maintained by my faculty advisor: [Dr. Karandeep Singh](https://kdpsingh.lab.medicine.umich.edu/).

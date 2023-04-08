@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of recent/current projects.
 nav: true
 nav_order: 2
-display_categories: [Research, Tutorial]
+display_categories: [Research, Open-source, Tutorial]
 horizontal: true
 ---
 
