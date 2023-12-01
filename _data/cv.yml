@@ -33,6 +33,15 @@
       description:
         - Economics, Statistics
 
+- title: Awards and Fellowship
+  type: time_table
+  contents:
+    - title: Rackham International Student Fellowship
+      year: Spring/Summer 2024
+      
+    - title: Scholars Awards grant program of Precision Health at the University of Michigan
+      year: Winter 2024
+
 - title: Experience
   type: time_table
   contents:
